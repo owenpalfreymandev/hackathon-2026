@@ -24,5 +24,6 @@ To install dependencies, run the command:
 
 ## Environment Variables
 
-Remember to setup environment variables for the Supabase project, which can be found [here](https://supabase.com/dashboard/project/ixfwdxjaswrdqaezcidi).
+Remember to set up environment variables for the Supabase project, such as the Supabase URL which can be found [here](https://supabase.com/dashboard/project/ixfwdxjaswrdqaezcidi).
 
+The secret key can be found [here](https://supabase.com/dashboard/project/ixfwdxjaswrdqaezcidi/settings/api-keys).
