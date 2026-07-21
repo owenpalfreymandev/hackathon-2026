@@ -10,3 +10,7 @@ app = FastAPI()
 url: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_SECRET_KEY")
 supabase: Client = create_client(url, key)
+
+@app.get("/hello-world")
+def hello_world():
+    return {"message": "Hello World"}
