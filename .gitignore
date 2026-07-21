@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# Code ediors/IDEs
+.idea
+.vscode
